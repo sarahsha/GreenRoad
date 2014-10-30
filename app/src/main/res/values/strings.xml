@@ -4,5 +4,7 @@
     <string name="app_name">GreenRoad</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="richtig">RICHTIG</string>
+    <string name="falsch">FALSCH</string>
 
 </resources>
