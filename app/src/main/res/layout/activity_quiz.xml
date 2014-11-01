@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,14 +11,16 @@
 
 <TextView
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="1dp"
+    android:layout_weight="0.1dp"
     android:id="@+id/level"
-    android:textSize="30dp" 
+    android:textSize="30dp"
     android:text="Level 1"
     android:layout_centerHorizontal="true"/>
 <TextView
     android:layout_width="fill_parent"
-    android:layout_height="80dp"
+    android:layout_height="1dp"
+    android:layout_weight="0.1dp"
     android:id="@+id/frage"
     android:background="#9a9d33"
     android:layout_marginTop="55dp"
@@ -26,7 +28,8 @@
     
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1dp"
         android:background="#9a9d33"
         android:id="@+id/a1"
         android:layout_below="@id/frage"
@@ -35,7 +38,8 @@
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1dp"
         android:background="#9a9d33"
         android:id="@+id/a2"
         android:layout_below="@id/a1"
@@ -43,7 +47,8 @@
         />
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1dp"
         android:background="#9a9d33"
         android:id="@+id/a3"
         android:layout_below="@id/a2"
@@ -51,7 +56,8 @@
         />
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1dp"
         android:background="#9a9d33"
         android:id="@+id/a4"
         android:layout_below="@id/a3"
@@ -59,4 +65,4 @@
 
 
         />
-</RelativeLayout>
+</LinearLayout>

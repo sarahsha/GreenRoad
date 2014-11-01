@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">GreenRoad</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">The Green Road To Allah</string>
     <string name="action_settings">Settings</string>
     <string name="richtig">RICHTIG</string>
     <string name="falsch">FALSCH</string>
